@@ -1,0 +1,26 @@
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    include "dvp_mod"
+    name[Group1] = "Slovak (programmer Dvorak modified)";
+
+    key <AD02> { [	comma,	less,   U010F, U010E	] };
+    key <AD05> { [	    y,	Y,		U00FD,	U00DD		]	};
+    key <AD08> { [	    c,	C,		U010D,	U010C	]	};
+    key <AD10> { [	    l,	L,		U013E,	U013D		]	};
+
+    key <AC01> { [	    a,	A,		U00E1,	U00C1 		]	};
+    key <AC02> { [	    o,	O,		U00F3,	U00D3		]	};
+    key <AC03> { [	    e,	E,		U00E9,	U00C9		]	};
+    key <AC04> { [	    u,	U,		U00FA,	U00DA		]	};
+    key <AC05> { [	    i,	I,		U00ED,	U00CD		]	};
+    key <AC06> { [	    d,	D,		U00E4,	U00C4		]	};
+    key <AC07> { [	    h,	H,		U00F4,	U00D4		]	};
+    key <AC08> { [	    t,	T,		U0165,	U0164		]	};
+    key <AC09> { [	    n,	N,		U0148,	U0147		]	};
+    key <AC10> { [	    s,	S,		U0161,	U0160		]	};
+
+    key <AB10> { [	    z,	Z,		U017E,	U017D		]	};
+
+
+    include "level3(ralt_switch)"
+};
